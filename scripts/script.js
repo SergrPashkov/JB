@@ -382,7 +382,6 @@ function Level361(closeBl35) {
 	const openBlock = function (Block) {
 		console.log('Открытие блока N', Block);
 		document.getElementById(Block).style.display = "Block";  // Вывод 2 блока
-		return Block;
 	};
 
 	// Закрытие блока
